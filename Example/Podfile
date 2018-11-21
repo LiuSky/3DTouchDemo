@@ -1,0 +1,11 @@
+use_frameworks!
+
+target '3DTouch_Example' do
+  pod '3DTouch', :path => '../'
+
+  target '3DTouch_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end

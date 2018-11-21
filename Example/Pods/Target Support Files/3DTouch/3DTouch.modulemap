@@ -1,0 +1,6 @@
+framework module _3DTouch {
+  umbrella header "3DTouch-umbrella.h"
+
+  export *
+  module * { export * }
+}

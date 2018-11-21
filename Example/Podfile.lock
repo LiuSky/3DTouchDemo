@@ -1,0 +1,27 @@
+PODS:
+  - 3DTouch (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - 3DTouch (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  3DTouch:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  3DTouch: 64878615670e622ea44a2b0537398ee09d4ae495
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 27c8c65c81ab98eda158e365d772c3f10cd4c7ff
+
+COCOAPODS: 1.6.0.beta.1
